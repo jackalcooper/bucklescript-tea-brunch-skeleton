@@ -1,0 +1,24 @@
+{
+  "name": "bs-app",
+  "description": "bucklescript-tea application built with Brunch.io",
+  "private": true,
+  "author": "Jackal",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server & node_modules/bs-platform/lib/bsb -make-world -w",
+    "build": "node_modules/bs-platform/lib/bsb -make-world & brunch build --production"
+  },
+  "dependencies": {
+    "bs-platform": "^2.1.0",
+    "bucklescript-tea": "^0.6.11"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}
