@@ -2,6 +2,9 @@
 
 This is a brunch skeleton for [bucklescript-tea](https://github.com/OvermindDL1/bucklescript-tea).
 
+## Notice
+This might not work on Windows due to my lack of experience. Please help if you are on Windows doing development.
+
 ## Installation
 
 Clone this repo manually or use `brunch new dir -s bs-tea`
